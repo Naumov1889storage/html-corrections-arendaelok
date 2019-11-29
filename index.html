@@ -1,0 +1,478 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+     <link rel="shortcut icon" href="img/favicon.jpg" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Аренда искусственных ёлок</title>
+    <!-- STYLE -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  </head>
+  <body>
+
+    <div class="main" id="main">
+      <div class="humburger">
+        <span class="one"></span>
+        <span class="two"></span>
+        <span class="three"></span>
+      </div>
+      <div class="menu dn">
+        <ul class="menu__list">
+          <li class="menu__item"><a href="#main" class="menu__link">Главная</a></li>
+          <li class="menu__item"><a href="#product" class="menu__link">Товары</a></li>
+          <li class="menu__item"><a href="#gallery" class="menu__link">Галерея</a></li>
+          <li class="menu__item"><a href="#about" class="menu__link">О нас</a></li>
+          <li class="menu__item"><a href="#contacts" class="menu__link">Контакты</a></li>
+        </ul>
+      </div>
+      <img src="img/main/elements.png" alt="" class="main-elements">
+      <img src="img/main/m-elements.png" alt="" class="main-mElements">
+      <div class="container">
+        <a href="index.html"><img src="img/main/logo.png" alt="Лого тут" class="main-logo"></a>
+        <div class="row">
+          <div class="col-lg-6 offset-lg-3">
+            <nav class="main-nav">
+              <ul class="main-nav__list">
+                <li class="li main-nav__item"><a href="#main" class="main-nav__link active">Главная</a></li>
+                <li class="li main-nav__item"><a href="#product" class="main-nav__link">Товары</a></li>
+                <li class="li main-nav__item"><a href="#gallery" class="main-nav__link">Галерея</a></li>
+                <li class="li main-nav__item"><a href="#about" class="main-nav__link">О нас</a></li>
+                <li class="li main-nav__item"><a href="#contacts" class="main-nav__link">Контакты</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <!-- /.row -->
+        <h1 class="main-title">Аренда искусственных ёлок</h1>
+        <h2 class="main-subtitle">закажи <span>сейчас</span> и получи <span>скидку в 25%</span></h2>
+        <div class="row">
+          <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
+            <div class="slider">
+              <div class="slider-block">
+                <img src="img/main/icon-1.png" alt="новогодние ёлки" class="slider-block__img">
+                <h6 class="slider-block__title">новогодние <br> ёлки</h6>
+              </div>
+              <!-- /.slider-block -->
+              <div class="slider-block">
+                <img src="img/main/icon-2.png" alt="весёлые снеговики" class="slider-block__img">
+                <h6 class="slider-block__title">весёлые <br> снеговики</h6>
+              </div>
+              <!-- /.slider-block -->
+              <div class="slider-block">
+                <img src="img/main/icon-2.png" alt="праздничные фотозоны" class="slider-block__img">
+                <h6 class="slider-block__title">праздничные <br> фотозоны</h6>
+              </div>
+              <!-- /.slider-block -->
+            </div>
+          </div>
+        </div>
+        <!-- /.row -->
+        <button class="main-btn" onclick="$('#modal').toggle('toggle')"><img src="img/main/btn-arrow.png" alt="" class="main-btn__img"> Заказать сейчас</button>
+      </div>
+      <!-- /.container -->
+    </div>
+    <!-- /.main -->
+
+    <div class="features">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 offset-lg-0 col-md-5 offset-md-1 col-sm-8 offset-sm-3 col-xs-12 offset-xs-0">
+            <div class="features-block">
+              <img width="56px" height="56px" src="img/features/icon-5.png" alt="Дизайнерские игрушки входят в цену" class="features-block__img">
+              <h3 class="features-block__title">Дизайнерские <br>игрушки входят в цену</h3>
+            </div>
+            <!-- /.features-block -->
+          </div>
+          <div class="col-lg-3 offset-lg-0 col-md-5 offset-md-1 col-sm-8 offset-sm-3 col-xs-12 offset-xs-0">
+            <div class="features-block">
+              <img width="56px" height="56px" src="img/features/icon-3.png" alt="Подбор ёлки и украшений" class="features-block__img">
+              <h3 class="features-block__title">Подбор ёлки <br> и украшений</h3>
+            </div>
+            <!-- /.features-block -->
+          </div>
+          <div class="col-lg-3 offset-lg-0 col-md-5 offset-md-1 col-sm-8 offset-sm-3 col-xs-12 offset-xs-0">
+            <div class="features-block">
+              <img width="56px" height="56px" src="img/features/icon-4.png" alt="Украшение светом входит в цену" class="features-block__img">
+              <h3 class="features-block__title">Украшение светом<br>входит в цену</h3>
+            </div>
+            <!-- /.features-block -->
+          </div>
+          <div class="col-lg-3 offset-lg-0 col-md-5 offset-md-1 col-sm-8 offset-sm-3 col-xs-12 offset-xs-0">
+            <div class="features-block">
+              <img width="56px" height="56px" src="img/features/icon-2.png" alt="Более 5 лет опыта" class="features-block__img">
+              <h3 class="features-block__title">Более <br> 5 лет опыта</h3>
+            </div>
+            <!-- /.features-block -->
+          </div>
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.container -->
+    </div>
+    <!-- /.features -->
+
+    <div class="product" id="product">
+      <img src="img/product/elements.png" alt="" class="product-elements">
+      <img src="img/product/m-elements.png" alt="" class="product-mElements">
+      <div class="container">
+        <h2 class="product-title">Выберите свою ёлку</h2>
+        <h6 class="product-subtitle">Выберете вариант неизменного атрибута главного праздника года. Не нашли подходящий? Наши дизайнеры смогут разработать нужное оформление.</h6>
+        <div class="product-slider">
+          <div class="product-block">
+            <img src="img/product/elka-1.png" alt="" class="product-block__img">
+            <span class="product-block__name">Искусственная новогодняя ель 1.8м</span>
+            <div class="product-price" data-target="1.8">
+              <img src="img/product/icon-buy.png" alt="" class="product-price__img">
+              <span class="product-price__text">11500руб</span>
+            </div>
+          </div>
+          <!-- /.product-block -->
+          <div class="product-block">
+            <img src="img/product/elka-2.png" alt="" class="product-block__img">
+            <span class="product-block__name">Искусственная новогодняя ель 2м</span>
+            <div class="product-price" data-target="2">
+              <img src="img/product/icon-buy.png" alt="" class="product-price__img">
+              <span class="product-price__text">16000руб</span>
+            </div>
+          </div>
+          <!-- /.product-block -->
+          <div class="product-block">
+            <img src="img/product/elka-3.png" alt="" class="product-block__img">
+            <span class="product-block__name">Искусственная новогодняя ель 2.5м</span>
+            <div class="product-price" data-target="2.5">
+              <img src="img/product/icon-buy.png" alt="" class="product-price__img">
+              <span class="product-price__text">20500руб</span>
+            </div>
+          </div>
+          <!-- /.product-block -->
+          <div class="product-block">
+            <img src="img/product/elka-1.png" alt="" class="product-block__img">
+            <span class="product-block__name">Искусственная новогодняя ель 3м</span>
+            <div class="product-price" data-target="3">
+              <img src="img/product/icon-buy.png" alt="" class="product-price__img">
+              <span class="product-price__text">25000руб</span>
+            </div>
+          </div>
+          <!-- /.product-block -->
+          <div class="product-block">
+            <img src="img/product/elka-2.png" alt="" class="product-block__img">
+            <span class="product-block__name">Искусственная новогодняя ель 3.5м</span>
+            <div class="product-price" data-target="3.5">
+              <img src="img/product/icon-buy.png" alt="" class="product-price__img">
+              <span class="product-price__text">29500руб</span>
+            </div>
+          </div>
+          <!-- /.product-block -->
+          <div class="product-block">
+            <img src="img/product/elka-3.png" alt="" class="product-block__img">
+            <span class="product-block__name">Искусственная новогодняя ель 4м</span>
+            <div class="product-price" data-target="4">
+              <img src="img/product/icon-buy.png" alt="" class="product-price__img">
+              <span class="product-price__text">34000руб</span>
+            </div>
+          </div>
+          <!-- /.product-block -->
+          <div class="product-block">
+            <img src="img/product/elka-1.png" alt="" class="product-block__img">
+            <span class="product-block__name">Искусственная новогодняя ель 5м</span>
+            <div class="product-price" data-target="5">
+              <img src="img/product/icon-buy.png" alt="" class="product-price__img">
+              <span class="product-price__text">63000руб</span>
+            </div>
+          </div>
+          <!-- /.product-block -->
+          <div class="product-block">
+            <img src="img/product/elka-2.png" alt="" class="product-block__img">
+            <span class="product-block__name">Искусственная новогодняя ель 6м</span>
+            <div class="product-price" data-target="6">
+              <img src="img/product/icon-buy.png" alt="" class="product-price__img">
+              <span class="product-price__text">89000руб</span>
+            </div>
+          </div>
+          <!-- /.product-block -->
+          <div class="product-block">
+            <img src="img/product/elka-3.png" alt="" class="product-block__img">
+            <span class="product-block__name">Искусственная новогодняя ель 7м</span>
+            <div class="product-price" data-target="7">
+              <img src="img/product/icon-buy.png" alt="" class="product-price__img">
+              <span class="product-price__text">120000руб</span>
+            </div>
+          </div>
+          <!-- /.product-block -->
+          <div class="product-block">
+            <img src="img/product/elka-1.png" alt="" class="product-block__img">
+            <span class="product-block__name">Искусственная новогодняя ель 8м</span>
+            <div class="product-price" data-target="8">
+              <img src="img/product/icon-buy.png" alt="" class="product-price__img">
+              <span class="product-price__text">153000руб</span>
+            </div>
+          </div>
+          <!-- /.product-block -->
+          <div class="product-block">
+            <img src="img/product/elka-2.png" alt="" class="product-block__img">
+            <span class="product-block__name">Искусственная новогодняя ель 9м</span>
+            <div class="product-price" data-target="9">
+              <img src="img/product/icon-buy.png" alt="" class="product-price__img">
+              <span class="product-price__text">190000руб</span>
+            </div>
+          </div>
+          <!-- /.product-block -->
+          <div class="product-block">
+            <img src="img/product/elka-3.png" alt="" class="product-block__img">
+            <span class="product-block__name">Искусственная новогодняя ель 10м</span>
+            <div class="product-price" data-target="10">
+              <img src="img/product/icon-buy.png" alt="" class="product-price__img">
+              <span class="product-price__text">226000руб</span>
+            </div>
+          </div>
+          <!-- /.product-block -->
+          <div class="product-block">
+            <img src="img/product/elka-1.png" alt="" class="product-block__img">
+            <span class="product-block__name">Искусственная новогодняя ель 11м</span>
+            <div class="product-price" data-target="11">
+              <img src="img/product/icon-buy.png" alt="" class="product-price__img">
+              <span class="product-price__text">270000руб</span>
+            </div>
+          </div>
+          <!-- /.product-block -->
+          <div class="product-block">
+            <img src="img/product/elka-2.png" alt="" class="product-block__img">
+            <span class="product-block__name">Искусственная новогодняя ель 12м</span>
+            <div class="product-price" data-target="12">
+              <img src="img/product/icon-buy.png" alt="" class="product-price__img">
+              <span class="product-price__text">304000руб</span>
+            </div>
+          </div>
+          <!-- /.product-block -->
+        </div>
+      </div>
+      <!-- /.container -->
+    </div>
+    <!-- /.product -->
+
+    <div class="hang" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <h3 class="hang-title">Успей создать новогоднее настроение!</h3>
+            <p class="hang-text">Почему арендовать искусственную елку у нас? Потому что выгодно! Индивидуально оформленная «лестная красавица» создаст прекрасное праздничное настроение. Мы делаем все для Вашего удобства и комфорта.</p>
+            <button class="main-btn hang-btn" onclick="$('#modal').toggle('toggle')"><img src="img/main/btn-arrow.png" alt="" class="main-btn__img"> Успеть к новому году</button>
+          </div>  
+          <div class="col-lg-6">
+            <div class="hang-blocks">
+              <div class="hang-block">
+                <img src="img/hang/icon-1.png" alt="Работаем день в день" class="hang-block__img">
+                <p class="hang-block__text">Работаем <br> "день в день"</p>
+              </div>
+              <!-- /.hang-block -->
+              <div class="hang-block">
+                <img src="img/hang/icon-2.png" alt="Оперативное оформление заказа" class="hang-block__img">
+                <p class="hang-block__text">Оперативное <br> оформление заказа</p>
+              </div>
+              <!-- /.hang-block -->
+              <div class="hang-block">
+                <img src="img/hang/icon-3.png" alt="Возможна срочная работа день в день" class="hang-block__img">
+                <p class="hang-block__text">Возможна срочная работа "день в день"</p>
+              </div>
+              <!-- /.hang-block -->
+              <div class="hang-block">
+                <img src="img/hang/icon-4.png" alt="Официальное составление договора." class="hang-block__img">
+                <p class="hang-block__text">Официальное <br> составление договора. </p>
+              </div>
+              <!-- /.hang-block -->
+              <div class="hang-block">
+                <img src="img/hang/icon-5.png" alt="Наличный и безналичный рассчёт" class="hang-block__img">
+                <p class="hang-block__text">Наличный и <br> безналичный рассчёт</p>
+              </div>
+              <!-- /.hang-block -->
+              <div class="hang-block">
+                <img src="img/hang/icon-6.png" alt="Оформление фасада и декора" class="hang-block__img">
+                <p class="hang-block__text">Оформление <br> фасада и декора</p>
+              </div>
+              <!-- /.hang-block -->
+            </div>
+            <!-- /.hang-blocks -->
+          </div>
+        </div>
+      </div>
+      <!-- /.container -->
+    </div>
+    <!-- /.hang -->
+
+    <div class="gallery" id="gallery">
+      <div class="container">
+        <h2 class="product-title">Фотогалерея</h2>
+        <h6 class="product-subtitle"> На фотографиях можно посмотреть примеры наших работ. Убедитесь, насколько качественно и ответственно, мы подходим к работе.</h6>
+        <div class="gallery-slider">
+          <div class="gallery-sliderWrapper">
+            <div class="gallery-slider__block">
+              <img src="img/gallery/img-1.jpg" alt="" class="gallery-slider__img one">
+              <img src="img/gallery/img-2.jpg" alt="" class="gallery-slider__img two">
+              <img src="img/gallery/img-3.jpg" alt="" class="gallery-slider__img three">
+              <img src="img/gallery/img-4.jpg" alt="" class="gallery-slider__img four">
+              <img src="img/gallery/img-5.jpg" alt="" class="gallery-slider__img five">
+              <img src="img/gallery/img-6.jpg" alt="" class="gallery-slider__img six">
+            </div>
+          </div>
+          <div class="gallery-sliderWrapper">
+            <div class="gallery-slider__block">
+              <img src="img/gallery/img-7.jpg" alt="" class="gallery-slider__img one">
+              <img src="img/gallery/img-8.jpg" alt="" class="gallery-slider__img two">
+              <img src="img/gallery/img-9.jpg" alt="" class="gallery-slider__img three">
+              <img src="img/gallery/img-10.jpg" alt="" class="gallery-slider__img four">
+              <img src="img/gallery/img-11.jpg" alt="" class="gallery-slider__img five">
+              <img src="img/gallery/img-12.jpg" alt="" class="gallery-slider__img six">
+            </div>
+          </div>
+          <div class="gallery-sliderWrapper">
+            <div class="gallery-slider__block">
+              <img src="img/gallery/image-19-11-19-01-50.jpg" alt="" class="gallery-slider__img  gallery-slider__img_resized_1">
+              <img src="img/gallery/image-19-11-19-01-50-1.jpg" alt="" class="gallery-slider__img two gallery-slider__img_resized_1">
+              <img src="img/gallery/image-19-11-19-01-50-2.jpg" alt="" class="gallery-slider__img three gallery-slider__img_resized_1">
+              <img src="img/gallery/image-19-11-19-01-50-3.jpg" alt="" class="gallery-slider__img four gallery-slider__img_resized_1">
+              <img src="img/gallery/image-19-11-19-01-50-4.jpg" alt="" class="gallery-slider__img five gallery-slider__img_resized_1">
+              <img src="img/gallery/image-19-11-19-01-51.jpg" alt="" class="gallery-slider__img six gallery-slider__img_resized_1">
+              <img src="img/gallery/image-19-11-19-01-51-1.jpg" alt="" class="gallery-slider__img gallery-slider__img_resized_1">
+              <img src="img/gallery/image-19-11-19-01-51-2.jpg" alt="" class="gallery-slider__img gallery-slider__img_resized_1">
+
+            </div>
+          </div>
+          <div class="gallery-sliderWrapper">
+            <div class="gallery-slider__block gallery-slider__block_has-video">
+              <video width="295" height="525" controls>
+                <source src="video/video-1.mp4" type="video/mp4">
+              </video>
+              <div class="fixes-images">
+                <img src="img/gallery/image-19-11-19-01-52.jpeg" alt="" class="gallery-slider__img  gallery-slider__img_resized_1">
+                <img src="img/gallery/image-19-11-19-01-52-1.jpeg" alt="" class="gallery-slider__img two gallery-slider__img_resized_1">
+                <img src="img/gallery/image-19-11-19-01-52-2.jpeg" alt="" class="gallery-slider__img three gallery-slider__img_resized_1">
+                <img src="img/gallery/image-19-11-19-01-52-3.jpeg" alt="" class="gallery-slider__img four gallery-slider__img_resized_1">
+                <img src="img/gallery/image-19-11-19-01-52-4.jpeg" alt="" class="gallery-slider__img five gallery-slider__img_resized_1">
+                <img src="img/gallery/image-19-11-19-01-52-5.jpg" alt="" class="gallery-slider__img six gallery-slider__img_resized_1">
+                <img src="img/gallery/image-19-11-19-01-52.jpg" alt="" class="gallery-slider__img gallery-slider__img_resized_1">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /.container -->
+    </div>
+    <!-- /.gallery -->
+
+    <div class="question">
+      <div class="container">
+        <div class="question-block">
+          <h2 class="question-title">Остались вопросы? Мы с радостью на них ответим!</h2>
+          <button class="question-btn" onclick="$('#modal').toggle('toggle')"><img src="img/question/tel.png" alt="" class="question-btn__img"> Заказать звонок</button>
+        </div>
+      </div>
+      <!-- /.container -->
+    </div>
+    <!-- /.quetion -->
+
+    <footer class="footer" id="contacts">
+      <div class="container">
+        <div class="footer-block">
+          <p class="footer-copy">&copy; 2018 Все права защищены | <span>Разработано веб-студией <a target="_blank" href="http://diz-studio.com/">Diz-studio</a></span></p>
+          <div class="footer-call">
+            <a href="tel:+79269025767" class="footer-link">
+              <img src="img/footer/tel.png" alt="" class="footer-link__img">
+              +7 (926) 902-57-67
+            </a>
+            <a href="tel:+79264969757" class="footer-link">
+              <img src="img/footer/tel.png" alt="" class="footer-link__img">
+              +7 (926) 496-97-57
+            </a>
+            <a href="mailto:katia_03@list.ru" class="footer-link">
+              <img src="img/footer/email.png" alt="" class="footer-link__img">
+              katia_03@list.ru
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- /.container -->
+    </footer>
+    <!-- /.footer -->
+    <div class="footer-docs">
+      <div class="container">
+        <div class="footer-docs__row">
+          <a href="#" target="_blank" class="footer-docs__link">Политика конфиденциальности</a>
+          <a href="#" target="_blank" class="footer-docs__link">Пользовательское соглашение</a>
+        </div>
+      </div>
+    </div>
+
+  <div class="preloader" id="preloader">
+    <img src="img/preloader.gif" alt="Логотип" class="preloader__logo">
+  </div>
+
+  <div class="modal" id="modal" tabindex="-1" role="dialog">
+    <div class="container">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <div class="modal-logo"><img src="img/main/logo.png" alt="Лого тут"></div>
+            <button type="button" class="close" id="close-modal" onclick="$('#modal').toggle('toggle')" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true"><i class="material-icons">close</i></span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="container-fluid">
+              <form action="mail.php" method="POST" class="row form">
+                <div class="col-md-12 col-lg-6">
+                  <div class="form-group">
+                    <i class="material-icons">person</i>
+                    <input type="text" name="name" placeholder="Ваше имя*" class="form-control">
+                  </div>
+                </div>
+                <div class="col-md-12 col-lg-6">
+                  <div class="form-group">
+                    <i class="material-icons">phone</i>
+                    <input type="tel" name="phone" placeholder="Ваш телефон*" class="form-control">
+                  </div>
+                </div>
+                <div class="col-lg-12 col-md-12">
+                  <div class="form-group select">
+                    <select name="spruce" name="spruce" id="spruce" class="form-control">
+                      <option value="0">Выберите ёлку</option>
+                      <option value="1.8">1.8 метра</option>
+                      <option value="2">2 метра</option>
+                      <option value="2.5">2.5 метра</option>
+                      <option value="3">3 метра</option>
+                      <option value="3.5">3.5 метра</option>
+                      <option value="4">4 метра</option>
+                      <option value="5">5 метров</option>
+                      <option value="6">6 метров</option>
+                      <option value="7">7 метров</option>
+                      <option value="8">8 метров</option>
+                      <option value="9">9 метров</option>
+                      <option value="10">10 метров</option>
+                      <option value="11">11 метров</option>
+                      <option value="12">12 метров</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="agreement-block">
+                  <input type="checkbox" id="agreement-checkbox">
+                  <span>Согласен на <a href="#" target="_blank">обработку персональных данных</a></span>
+                </div>
+                <button type="submit" class="main-btn hang-btn modal-btn"><img src="img/main/btn-arrow.png" alt="" class="main-btn__img"> Заказать сейчас</button>
+              </form>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- /.modal -->
+
+  <!-- STYLES -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="css/libs.min.css">
+  <link rel="stylesheet" href="css/main.css"/>
+  <!-- SCRIPTS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" defer></script>
+  <script src="js/libs.min.js" defer></script>
+  <script src="js/growl.min.js" defer></script>
+  <script src="js/main.js" defer></script>
+  </body>
+</html>
